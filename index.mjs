@@ -183,9 +183,9 @@ app.post("/indexx.php", connectBusboy({immediate: true, limits: {files: 1, fileS
 
 app.get('/proxy.php', async (req, res) => {
 
-  res.header("Access-Control-Allow-Origin", "https://nertivia.net");
+  res.header("Access-Control-Allow-Origin", "https://nertivia.com");
   res.header('Cache-Control', 'public, max-age=31536000');
-  res.header('Access-Control-Allow-Origin', 'https://nertivia.net');
+  res.header('Access-Control-Allow-Origin', 'https://nertivia.com');
 
 
 
