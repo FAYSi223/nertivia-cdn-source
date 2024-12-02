@@ -196,7 +196,7 @@ app.get('/proxy.php', async (req, res) => {
     return;
   }
 
-  if (url === "https://media.nertivia.net") {
+  if (url === "https://cdn.nertivia.com") {
     res.redirect(url);
     return;
   }
